@@ -1,0 +1,198 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &1790744396822873795
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790744396772542146}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1790744396772542146
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1790744396822873795}
+  - component: {fileID: 1790744398668367556}
+  - component: {fileID: 1790744398668367558}
+  - component: {fileID: 1790744398668367557}
+  m_Layer: 0
+  m_Name: "IAPManager"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1790744398668367556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790744396772542146}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68685292f9092170e6fc1fff83fba9bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  storeKeys:
+    googleKey: "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhR9VbkcOwZugMKgmmM2ciWLAYAqjBMQ9R9hDiEVAWmCyb8TZaMoF1oDwJ0vg21RxPT0Px765EiyLshKjKKIMGHwsI9fPG7KcQekmpMRKWWKNVZAQqp46EID6W7mAO9vBxSBgr69aQSUayDs+Wa6lAJwOxXvB\x2fL8Vdp5XEFCguSHVY+CsvvjBwmpRCqHCm0tVeFcddg\x2fxSAgEmr4wEo0lCadfUx0gLfm8\x2fCDuYH\x2fjG2n\x2fLSWFoxlzlrU7O5COoqRmfJNXmk1k3m5rI1jWy6hCJktJ1s1uI0bviWMBabBqgIHr8aWbQn\x2fiGPrOfFfovdbWwT3XbyCaQbON2vPRgdUWXQIDAQAB"
+  IAPs:
+  - id: "1449154555.24286565"
+    name: "IAPCon"
+    items:
+    - id: "big_hints_pack"
+      storeIDs: []
+      type: 0
+      title: "200 Hints"
+      description: 
+      realPrice: "$9.99"
+      fetch: 1
+      icon: {fileID: 21300000, guid: a228c521d459437b86b4fb5c5583f0d0, type: 3}
+      usageCount: 1
+      virtualPrice:
+      - name: "hints"
+        amount: 200
+      - name: 
+        amount: 0
+      req:
+        entry: 
+        target: 0
+        labelText: 
+        nextId: 
+      editorType: 1
+      platformFoldout: 0
+      onSale: 0
+    - id: "large_hints_pack"
+      storeIDs: []
+      type: 0
+      title: "80 Hints"
+      description: 
+      realPrice: "$3.99"
+      fetch: 1
+      icon: {fileID: 21300000, guid: a228c521d459437b86b4fb5c5583f0d0, type: 3}
+      usageCount: 1
+      virtualPrice:
+      - name: "hints"
+        amount: 80
+      - name: 
+        amount: 0
+      req:
+        entry: 
+        target: 0
+        labelText: 
+        nextId: 
+      editorType: 1
+      platformFoldout: 0
+      onSale: 0
+    - id: "hints_pack"
+      storeIDs: []
+      type: 0
+      title: "30 Hints"
+      description: "+ 10 Hints"
+      realPrice: "$1.99"
+      fetch: 1
+      icon: {fileID: 21300000, guid: a228c521d459437b86b4fb5c5583f0d0, type: 3}
+      usageCount: 1
+      virtualPrice:
+      - name: "hints"
+        amount: 40
+      - name: 
+        amount: 0
+      req:
+        entry: 
+        target: 0
+        labelText: 
+        nextId: 
+      editorType: 1
+      platformFoldout: 0
+      onSale: 1
+    - id: "hints"
+      storeIDs: []
+      type: 0
+      title: "10 Hints"
+      description: 
+      realPrice: "$0.99"
+      fetch: 1
+      icon: {fileID: 21300000, guid: a228c521d459437b86b4fb5c5583f0d0, type: 3}
+      usageCount: 1
+      virtualPrice:
+      - name: "hints"
+        amount: 10
+      - name: 
+        amount: 0
+      req:
+        entry: 
+        target: 0
+        labelText: 
+        nextId: 
+      editorType: 1
+      platformFoldout: 0
+      onSale: 0
+  - id: "1516125118.99743802"
+    name: "IAPNonCon"
+    items:
+    - id: "no_ads"
+      storeIDs: []
+      type: 1
+      title: "Remove Ads"
+      description: "No more interuptions!"
+      realPrice: "$1.99"
+      fetch: 1
+      icon: {fileID: 21300000, guid: 7553c1c396754f9ea0fe4d5f4104a3f5, type: 3}
+      usageCount: 1
+      virtualPrice:
+      - name: 
+        amount: 0
+      - name: 
+        amount: 0
+      req:
+        entry: 
+        target: 0
+        labelText: 
+        nextId: 
+      editorType: 0
+      platformFoldout: 0
+      onSale: 0
+  currencies:
+  - name: "hints"
+    amount: 6
+  - name: "stars"
+    amount: 0
+  IsInitialized: 1
+--- !u!114 &1790744398668367557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790744396772542146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ce48943a46af6b1e404779044da92af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1790744398668367558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790744396772542146}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39ae7393e8dc9388416ec6607c3dca7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  memoryOnly: 0
+  encrypt: 1
+  obfuscKey: "B0san0va"

@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a14dd1f26cd73c9c27e0d3d3bbea360c, type: 3}
+  m_Name: "Uncategorized"
+  m_EditorClassIdentifier: 
+  data:
+  - "~Element Name~"
+  - "AllWords"
+  - "Background"
+  - "Background2"
+  - "BonusLevelEnded"
+  - "ClassicComplete"
+  - "ClassicDifficulty"
+  - "ClassicEnded"
+  - "ClassicMenu"
+  - "ClassicStats"
+  - "CurrentRank"
+  - "DailyChallenge"
+  - "Definitions"
+  - "Dictionary"
+  - "Difficulty"
+  - "ErrorMessage"
+  - "HintsAdded"
+  - "Language"
+  - "LevelEnded"
+  - "LevelEndedFail"
+  - "LevelMenu"
+  - "LevelStart"
+  - "Lvl25Progress"
+  - "Lvl50Progress"
+  - "Lvl50Progress2"
+  - "MainMenu"
+  - "MusicOFF"
+  - "MusicOFF"
+  - "MusicON"
+  - "MusicON"
+  - "MyScores"
+  - "MyWords"
+  - "NextRank"
+  - "PlayDifficulty"
+  - "PlayMenu"
+  - "PlayStats"
+  - "QuickClassicEnded"
+  - "Quit"
+  - "RateUs"
+  - "Scoreboard"
+  - "Settings"
+  - "Shop"
+  - "SoundOFF"
+  - "SoundON"
+  - "StageComplete"
+  - "StageCompleteStg1"
+  - "StageCompleteStg2"
+  - "StageWords"
+  - "SuggestVideo"
+  - "Tutorial"
+  - "WatchVideo"
+  - "WordleSoundOff"
+  - "WordleSoundOn"
+  - "Rewards"

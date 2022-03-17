@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a092fe352668b595b1b17794f0a4cc9a, type: 3}
+  m_Name: "PopRotateLeft"
+  m_EditorClassIdentifier: 
+  presetCategory: "Scale"
+  presetName: "PopRotateLeft"
+  data:
+    animationType: 1
+    move:
+      enabled: 0
+      animationType: 1
+      moveDirection: 2
+      customPosition: {x: 0, y: 0, z: 0}
+      easeType: 0
+      ease: 30
+      animationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      startDelay: 0.3
+      duration: 0.2
+    rotate:
+      enabled: 1
+      animationType: 1
+      rotation: {x: 0, y: 0, z: -30}
+      rotateMode: 1
+      easeType: 1
+      ease: 26
+      animationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: -4.964448
+          outSlope: -4.964448
+          weightedMode: 0
+          inWeight: 0.3333333
+          outWeight: 0.3333333
+        - serializedVersion: 3
+          time: 0.1046661
+          value: -0.5196094
+          inSlope: 0.3456039
+          outSlope: 0.3456039
+          weightedMode: 0
+          inWeight: 0.3333333
+          outWeight: 0.3333333
+        - serializedVersion: 3
+          time: 0.301904
+          value: 0.4396771
+          inSlope: 2.333061
+          outSlope: 2.333061
+          weightedMode: 0
+          inWeight: 0.3333333
+          outWeight: 0.3333333
+        - serializedVersion: 3
+          time: 0.5639225
+          value: 0.3922153
+          inSlope: 0.2736395
+          outSlope: 0.2736395
+          weightedMode: 0
+          inWeight: 0.3333333
+          outWeight: 0.3333333
+        - serializedVersion: 3
+          time: 0.7744605
+          value: 0.6958774
+          inSlope: -1.555205
+          outSlope: -1.555205
+          weightedMode: 0
+          inWeight: 0.3333333
+          outWeight: 0.3333333
+        - serializedVersion: 3
+          time: 0.861855
+          value: 0.8446232
+          inSlope: -1.218298
+          outSlope: -1.218298
+          weightedMode: 0
+          inWeight: 0.3333333
+          outWeight: 0.3333333
+        - serializedVersion: 3
+          time: 0.9347948
+          value: 0.9203229
+          inSlope: -1.726552
+          outSlope: -1.726552
+          weightedMode: 0
+          inWeight: 0.3333333
+          outWeight: 0.3333333
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1.221945
+          outSlope: 1.221945
+          weightedMode: 0
+          inWeight: 0.3333333
+          outWeight: 0.3333333
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      startDelay: 0
+      duration: 0.6
+    scale:
+      enabled: 1
+      animationType: 1
+      scale: {x: 0, y: 0, z: 0}
+      easeType: 0
+      ease: 27
+      animationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: -3.229966
+          outSlope: -3.229966
+          weightedMode: 0
+          inWeight: 0.3333333
+          outWeight: 0.3333333
+        - serializedVersion: 3
+          time: 0.1777124
+          value: -0.6628049
+          inSlope: 0.03153664
+          outSlope: 0.03153664
+          weightedMode: 0
+          inWeight: 0.3333333
+          outWeight: 0.3333333
+        - serializedVersion: 3
+          time: 0.3969316
+          value: 1.295676
+          inSlope: 0.1825578
+          outSlope: 0.1825578
+          weightedMode: 0
+          inWeight: 0.3333333
+          outWeight: 0.3333333
+        - serializedVersion: 3
+          time: 0.5909094
+          value: 0.7050229
+          inSlope: 2.044466
+          outSlope: 2.044466
+          weightedMode: 0
+          inWeight: 0.3333333
+          outWeight: 0.3333333
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          weightedMode: 0
+          inWeight: 0.3333333
+          outWeight: 0.3333333
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      startDelay: 0.2
+      duration: 0.4
+    fade:
+      enabled: 1
+      animationType: 1
+      alpha: 1
+      easeType: 0
+      ease: 1
+      animationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      startDelay: 0.4
+      duration: 0.2
